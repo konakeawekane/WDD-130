@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        background-color: #eeeeee;
+    }
+    .post{
+        width:500px;
+        background-color: white;
+        margin: 0 auto;
+    }
+    header{
+        display:grid;
+        grid-template-columns: 1fr 3fr 3fr 1fr;
+        height:66px;
+    }
+    header h1{
+        margin: 20px 0;
+        justify-self: left;
+        font-size: 26px;
+    }
+    header h2{
+        margin: 24px 0;
+        justify-self: right;
+        font-size: 18px;
+        color:#b0b0b0;
+    }
+    header img{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        border-radius:100%;
+        margin: 8px 8px;
+    }
+    header i{
+        text-align: center;
+        justify-self: center;
+        overflow: hidden;
+        height:30px;
+        margin: 18px 8px;
+        font-size: 30px;
+    }
+    main img{
+        width:500px;
+    }
+    footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 8fr 1fr;
+    }
+    footer h3{
+        margin: 15px 0;
+        justify-self: right;
+        font-size: 18px;
+        color:#b0b0b0;
+    }
+    footer i{
+        text-align: center;
+        justify-self: center;
+        overflow: hidden;
+        height:35px;
+        margin: 8px 8px;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <div class="post">
+    <header>
+        <img src="pexels-blitzboy.jpg" alt="profile picture">
+        <h1>Alexajohn</h1>
+        <h2>20 min</h2>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </header>
+    <main>
+        <img src="pexels-francesco.jpg" alt="picture of a mountain and hot air balloon">
+    </main>
+    <footer>
+        <i class="fa-solid fa-bookmark"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+        <i class="fa-regular fa-message"></i>
+        <h3>852</h3>
+        <i class="fa-regular fa-heart"></i>
+    </footer>
+    </div>
+</body>
+</html>

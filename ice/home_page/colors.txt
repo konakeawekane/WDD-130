@@ -1,0 +1,16 @@
+Color scheme-
+space cadet: #2D3147
+naples yellow: #F9DC5C
+light coral: #F7717D
+mint cream: #F4FFFD
+
+font family-
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cal+Sans&family=Metrophobic&display=swap');
+
+title: Cal Sans
+
+text sans serif: Metrophobic
+
+test serif: Bodoni Moda
+
